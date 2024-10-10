@@ -1,2 +1,2 @@
-name = input('digite seu nome:')
-age = int(input('digite sua idade:'))
+nome = input("qual seu nome?")
+idade = int(input("qual a sua idade")
