@@ -1,3 +1,7 @@
-nome = input("qual seu nome?")
-idade = input("qual a sua idade"))
-print("seja bem vindo ",nome)
+nome = input("Digite seu nome: ")
+status = input(f"{nome} você está bem?")
+match status:
+  case "sim":
+    print("Que bom")
+  case "não":
+    print("Sinto muito")
